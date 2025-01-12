@@ -263,6 +263,7 @@ p {
 }
 
 .card {
+    border: 2px solid rgba(241, 238, 47, 0.904);
     border-radius: 15px;
     overflow: hidden;
     position: relative;
@@ -347,6 +348,23 @@ p {
     margin: 20px;
 }
 
+.invitacion-2 {
+    border: 2px solid rgba(224, 238, 23, 0.911);
+    border-radius: 10px;
+    background-color: rgba(58, 58, 58, 0.7);
+    padding: 15px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.invitacion-2 img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
 
 .invitaciones-comunion h2 {
     color: #ff0;
@@ -386,6 +404,19 @@ p {
     padding: 20px;
     max-width: 400px;
     text-align: center;
+}
+
+/* archivo styles.css */
+.icon-whatsapp {
+    color: #25D366; /* Color verde de WhatsApp */
+}
+
+.icon-email {
+    color: #007BFF; /* Color azul para el correo */
+}
+
+.icon-location {
+    color: #FF5733; /* Color rojo para la ubicación */
 }
 
 .contacto-imagen {

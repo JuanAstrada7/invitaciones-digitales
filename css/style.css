@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    box-sizing: border-box; /* Añadido para box modeling */
+    box-sizing: border-box; 
 }
 
 body {
@@ -21,9 +21,10 @@ body {
     background-attachment: fixed;
 }
 
-/**-------- HEADER --------*/
+/*-------- HEADER --------*/
 
 /* Estilos para la barra de navegación */
+
 .navbar {
     font-family: "Roboto", sans-serif;
     background-color: #000;
@@ -51,40 +52,40 @@ body {
 }
 
 .navbar-nav .nav-link {
-    color: #fff; /* Color de los enlaces */
-    margin: 0 10px; /* Espaciado entre enlaces */
-    font-size: 16px; /* Tamaño de fuente */
-    transition: color 0.3s; /* Transición suave para el color */
+    color: #fff; 
+    margin: 0 10px; 
+    font-size: 16px; 
+    transition: color 0.3s; 
 }
 
 .navbar-nav .nav-link:hover {
-    color: #ff0; /* Color al pasar el mouse */
+    color: #ff0;
 }
 
 .dropdown-menu {
-    background-color: #000; /* Fondo negro para el menú desplegable */
+    background-color: #000;
 }
 
 .dropdown-item {
-    color: #fff; /* Color de los elementos del menú desplegable */
+    color: #fff; 
 }
 
 .dropdown-item:hover {
     background-color: #000;
-    color: #ff0; /* Color del texto al pasar el mouse */
+    color: #ff0; 
 }
 
 /* Estilo para el logo y el texto */
+
 .logo-container {
-    display: flex; /* Usar flexbox para alinear logo y texto */
-    align-items: center; /* Centrar verticalmente */
+    display: flex; 
+    align-items: center; 
 }
 
 .navbar-logo {
-    height: 70px; /* Ajusta la altura del logo */
-    margin-right: 10px; /* Espaciado a la derecha del logo */
+    height: 70px; 
+    margin-right: 10px;
 }
-
 
 /**-------- MAIN --------*/
 
@@ -162,6 +163,7 @@ p {
 }
 
 /* Estilos para la sección de beneficios */
+
 .beneficios {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 50px 20px;
@@ -212,49 +214,49 @@ p {
 /**--------  Estilos para carousel --------*/
 
 .carousel-section {
-    text-align: center; /* Centra el texto */
-    margin: 20px 0; /* Añade margen superior e inferior */
+    text-align: center; 
+    margin: 20px 0; 
     background-color: rgba(0, 0, 0, 0.8);
 }
 
 .carousel-section h4 {
-    font-size: 45px; /* Tamaño de fuente para el h4 */
-    margin-bottom: 15px; /* Espaciado inferior */
-    color: #ff0; /* Color del texto */
+    font-size: 45px; 
+    margin-bottom: 15px; 
+    color: #ff0; 
 }
 
 .carousel-inner img {
-    max-height: 400px; /* Ajusta la altura máxima de las imágenes */
-    object-fit: cover; /* Asegura que las imágenes mantengan su proporción */
+    max-height: 400px; 
+    object-fit: cover; 
     border-radius: 5px;
     
 }
 
 .carousel-caption {
-    /* background-color: rgba(0, 0, 0, 0.8); */ /* Eliminado el fondo */
-    color: gold; /* Color del texto */
-    padding: 10px; /* Espaciado interno */
-    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); /* Sombreado del texto maximizado */
+    
+    color: gold; 
+    padding: 10px; 
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); 
 }
 
 .carousel-caption h5 {
-    font-size: 4rem; /* Tamaño de fuente para el título */
-    margin-bottom: 3px; /* Espaciado inferior */
+    font-size: 4rem; 
+    margin-bottom: 3px; 
     text-align: center;
-    padding: 5px; /* Espaciado interno para el título */
-    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); /* Sombreado del texto maximizado */
+    padding: 5px; 
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
 }
 
 .carousel-caption p {
-    font-size: 2.5rem; /* Tamaño de fuente para el texto */
-    padding: 5px; /* Espaciado interno para el texto */
-    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); /* Sombreado del texto maximizado */
+    font-size: 2.5rem; 
+    padding: 5px;
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); 
 }
 
 /* Estilos css para casamientos */
 
 .invitaciones-bodas {
-    display: grid; /* Mantener el diseño en cuadrícula */
+    display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     max-width: 1000px;
@@ -267,13 +269,13 @@ p {
     border-radius: 15px;
     overflow: hidden;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para las tarjetas */
+    background-color: rgba(0, 0, 0, 0.8); 
 }
 
 .card-img-top {
     width: 100%;
     height: auto;
-    border-radius: 15px 15px 0 0; /* Bordes redondeados solo en la parte superior */
+    border-radius: 15px 15px 0 0; 
 }
 
 .card-body {
@@ -288,20 +290,19 @@ p {
 
 .card-text {
     color: white;
-    margin-bottom: 15px; /* Espaciado adicional */
+    margin-bottom: 15px; 
 }
 
 /* Estilo para el botón */
+
 .btn-primary {
-    background-color: #ff0; /* Color del botón */
-    color: #000; /* Color del texto del botón */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    padding: 10px 20px; /* Espaciado interno */
-    text-decoration: none; /* Sin subrayado */
+    background-color: #ff0; 
+    color: #000; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px;
+    text-decoration: none; 
 }
-
-
 
 /*---------- Estilos para la pestaña cumpleaños -----------*/
 
@@ -365,7 +366,6 @@ p {
     border-radius: 10px;
 }
 
-
 .invitaciones-comunion h2 {
     color: #ff0;
     margin: 10px 0;
@@ -408,15 +408,15 @@ p {
 
 /* archivo styles.css */
 .icon-whatsapp {
-    color: #25D366; /* Color verde de WhatsApp */
+    color: #25D366; 
 }
 
 .icon-email {
-    color: #007BFF; /* Color azul para el correo */
+    color: #007BFF; 
 }
 
 .icon-location {
-    color: #FF5733; /* Color rojo para la ubicación */
+    color: #FF5733; 
 }
 
 .contacto-imagen {
@@ -433,6 +433,7 @@ p {
 }
 
 /* Media queries para responsividad */
+
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2.5rem;
@@ -443,15 +444,15 @@ p {
     }
     
     .beneficios-grid {
-        grid-template-columns: 1fr; /* Una columna en móviles */
+        grid-template-columns: 1fr; 
     }
     
     .eventos {
-        grid-template-columns: 1fr; /* Una columna en móviles */
+        grid-template-columns: 1fr; 
     }
 
     h1 {
-        font-size: 50px; /* Ajuste del tamaño del h1 */
+        font-size: 50px;
     }
 }
 

@@ -232,7 +232,7 @@ p {
 
 .carousel-caption {
     /* background-color: rgba(0, 0, 0, 0.8); */ /* Eliminado el fondo */
-    color: white; /* Color del texto */
+    color: gold; /* Color del texto */
     padding: 10px; /* Espaciado interno */
     text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); /* Sombreado del texto maximizado */
 }
@@ -286,7 +286,7 @@ p {
 }
 
 .card-text {
-    color: #ff0;
+    color: white;
     margin-bottom: 15px; /* Espaciado adicional */
 }
 
@@ -317,14 +317,14 @@ p {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 15px;
     margin: 10px;
-    max-width: 200px;
+    max-width: 300px;
     text-align: center;
 }
 
 .invitacion img {
     width: 100%;
     height: auto;
-    max-width: 200px;
+    max-width: 300px;
     border-radius: 10px;
 }
 

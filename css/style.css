@@ -243,10 +243,10 @@ p {
 }
 
 .carousel-caption {
-    
     color: gold; 
     padding: 10px; 
-    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); 
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .carousel-caption h5 {
@@ -487,7 +487,11 @@ footer p {
     }
 
     .carousel-caption h5 {
-        font-size: 1.2rem; /* Ajustar tamaño de fuente del título del carrusel */
+        font-size: 2rem; /* Ajustar tamaño de fuente del título */
+    }
+
+    .carousel-caption p {
+        font-size: 1.5rem; /* Ajustar tamaño de fuente del párrafo */
     }
 
     /* ---- responsive casamiento ----*/

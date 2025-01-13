@@ -76,14 +76,13 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #000; /* Color de fondo del botón hamburguesa */
-    border: 2px solid #ff0; /* Bordes amarillos */
+    background-color: #000; 
+    border: 2px solid #ff0; 
 }
 
 .navbar-toggler-icon {
-    background-color: #ff0; /* Color de las líneas del ícono del botón hamburguesa */
+    background-color: #ff0; 
 }
-
 
 /* Estilo para el logo y el texto */
 
@@ -466,122 +465,122 @@ footer p {
     /* ---- responsive index ----*/
 
     .navbar-brand {
-        font-size: 1.2rem; /* Ajustar tamaño de fuente */
+        font-size: 1.2rem; 
     }
 
     .hero-content h1 {
-        font-size: 1.5rem; /* Ajustar tamaño de fuente del título */
+        font-size: 1.5rem; 
     }
 
     .cta-button {
-        padding: 10px 20px; /* Ajustar padding del botón */
+        padding: 10px 20px; 
     }
 
     .beneficios-grid {
         display: flex;
-        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+        flex-direction: column; 
     }
 
     .beneficio {
-        margin-bottom: 20px; /* Espaciado entre beneficios */
+        margin-bottom: 20px; 
     }
 
     .carousel-caption h5 {
-        font-size: 2rem; /* Ajustar tamaño de fuente del título */
+        font-size: 2rem; 
     }
 
     .carousel-caption p {
-        font-size: 1.5rem; /* Ajustar tamaño de fuente del párrafo */
+        font-size: 1.5rem;
     }
 
     /* ---- responsive casamiento ----*/
 
     .grid-contenedor h1 {
-        font-size: 1.5rem; /* Ajustar tamaño de fuente del título */
-        text-align: center; /* Centrar el título */
+        font-size: 1.5rem; 
+        text-align: center; 
     }
 
     .invitaciones-bodas {
         display: flex;
-        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
-        align-items: center; /* Centrar los elementos */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .card {
-        width: 100%; /* Hacer que las tarjetas ocupen el 100% del ancho */
-        margin-bottom: 20px; /* Espaciado entre tarjetas */
+        width: 100%; 
+        margin-bottom: 20px; 
     }
 
 
     /* ---- responsive cumpleaños ----*/
 
     main h1 {
-        font-size: 1.5rem; /* Ajustar tamaño de fuente del título */
-        text-align: center; /* Centrar el título */
+        font-size: 1.5rem; 
+        text-align: center; 
     }
 
     .invitaciones-cumple {
         display: flex;
-        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
-        align-items: center; /* Centrar los elementos */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .invitacion {
-        width: 100%; /* Hacer que las invitaciones ocupen el 100% del ancho */
-        margin-bottom: 20px; /* Espaciado entre invitaciones */
-        text-align: center; /* Centrar texto dentro de cada invitación */
+        width: 100%;
+        margin-bottom: 20px; 
+        text-align: center; 
     }
 
     .invitacion img {
-        max-width: 100%; /* Asegurar que la imagen no exceda el ancho del contenedor */
-        height: auto; /* Mantener la proporción de la imagen */
+        max-width: 100%; 
+        height: auto; 
     }
 
     /* ---- responsive comunion ----*/
 
     .invitaciones-comunion {
         display: flex;
-        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
-        align-items: center; /* Centrar los elementos */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .invitacion-2 {
-        width: 100%; /* Hacer que las invitaciones ocupen el 100% del ancho */
-        margin-bottom: 20px; /* Espaciado entre invitaciones */
-        text-align: center; /* Centrar texto dentro de cada invitación */
+        width: 100%; 
+        margin-bottom: 20px; 
+        text-align: center; 
     }
 
     .invitacion-2 img {
-        max-width: 100%; /* Asegurar que la imagen no exceda el ancho del contenedor */
-        height: auto; /* Mantener la proporción de la imagen */
+        max-width: 100%; 
+        height: auto; 
     }
 
     /* ---- responsive contacto ----*/
 
     .contacto-info {
-        text-align: center; /* Centrar texto en la sección de contacto */
+        text-align: center; 
     }
 
     .contacto-imagen {
-        max-width: 100%; /* Asegurar que la imagen no exceda el ancho del contenedor */
-        height: auto; /* Mantener la proporción de la imagen */
+        max-width: 100%; 
+        height: auto;
     }
 
     .contacto-details {
-        padding: 0 15px; /* Añadir padding para evitar que el texto toque los bordes */
+        padding: 0 15px;
     }
 
     .contacto-item {
-        margin-bottom: 20px; /* Espaciado entre elementos de contacto */
+        margin-bottom: 20px; 
     }
 
     .contacto-item p {
-        display: flex; /* Usar flexbox para alinear iconos y texto */
-        align-items: center; /* Centrar verticalmente */
+        display: flex; 
+        align-items: center; 
     }
 
     .contacto-item svg {
-        margin-right: 10px; /* Espaciado entre el icono y el texto */
+        margin-right: 10px; 
     }
     
 }

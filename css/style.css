@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 body {
@@ -37,25 +37,25 @@ body {
 }
 
 .navbar-brand {
-    color: #ff0; 
-    font-size: 24px; 
-    font-weight: bold; 
+    color: #ff0;
+    font-size: 24px;
+    font-weight: bold;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 
 .navbar-brand:hover {
-    color: #ff0; 
-    font-size: 24px; 
-    font-weight: bold; 
-    
+    color: #ff0;
+    font-size: 24px;
+    font-weight: bold;
+
 }
 
 .navbar-nav .nav-link {
-    color: #fff; 
-    margin: 0 10px; 
-    font-size: 16px; 
-    transition: color 0.3s; 
+    color: #fff;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
 }
 
 .navbar-nav .nav-link:hover {
@@ -67,32 +67,32 @@ body {
 }
 
 .dropdown-item {
-    color: #fff; 
+    color: #fff;
 }
 
 .dropdown-item:hover {
     background-color: #000;
-    color: #ff0; 
+    color: #ff0;
 }
 
 .navbar-toggler {
-    background-color: #000; 
-    border: 2px solid #ff0; 
+    background-color: #000;
+    border: 2px solid #ff0;
 }
 
 .navbar-toggler-icon {
-    background-color: #ff0; 
+    background-color: #ff0;
 }
 
 /* Estilo para el logo y el texto */
 
 .logo-container {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
 }
 
 .navbar-logo {
-    height: 70px; 
+    height: 70px;
     margin-right: 10px;
 }
 
@@ -223,49 +223,49 @@ p {
 /**--------  Estilos para carousel --------*/
 
 .carousel-section {
-    text-align: center; 
-    margin: 20px 0; 
+    text-align: center;
+    margin: 20px 0;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
 .carousel-section h4 {
-    font-size: 45px; 
-    margin-bottom: 15px; 
-    color: #ff0; 
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #ff0;
 }
 
 .carousel-inner img {
-    max-height: 400px; 
-    object-fit: cover; 
+    max-height: 400px;
+    object-fit: cover;
     border-radius: 5px;
-    
+
 }
 
 .carousel-caption {
-    color: gold; 
-    padding: 10px; 
+    color: gold;
+    padding: 10px;
     text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
-    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 .carousel-caption h5 {
-    font-size: 4rem; 
-    margin-bottom: 3px; 
+    font-size: 4rem;
+    margin-bottom: 3px;
     text-align: center;
-    padding: 5px; 
+    padding: 5px;
     text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
 }
 
 .carousel-caption p {
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     padding: 5px;
-    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); 
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
 }
 
 /* Estilos css para casamientos */
 
 .invitaciones-bodas {
-    display: grid; 
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     max-width: 1000px;
@@ -278,13 +278,13 @@ p {
     border-radius: 15px;
     overflow: hidden;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.8); 
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .card-img-top {
     width: 100%;
     height: auto;
-    border-radius: 15px 15px 0 0; 
+    border-radius: 15px 15px 0 0;
 }
 
 .card-body {
@@ -299,18 +299,18 @@ p {
 
 .card-text {
     color: white;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
 
 /* Estilo para el botón */
 
 .btn-primary {
-    background-color: #ff0; 
-    color: #000; 
-    border: none; 
-    border-radius: 5px; 
+    background-color: #ff0;
+    color: #000;
+    border: none;
+    border-radius: 5px;
     padding: 10px 20px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 /*---------- Estilos para la pestaña cumpleaños -----------*/
@@ -405,7 +405,7 @@ p {
 }
 
 .contacto-item {
-    color:#ff0;
+    color: #ff0;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     overflow: hidden;
@@ -417,15 +417,15 @@ p {
 
 /* archivo styles.css */
 .icon-whatsapp {
-    color: #25D366; 
+    color: #25D366;
 }
 
 .icon-email {
-    color: #007BFF; 
+    color: #007BFF;
 }
 
 .icon-location {
-    color: #FF5733; 
+    color: #FF5733;
 }
 
 .contacto-imagen {
@@ -465,28 +465,29 @@ footer p {
     /* ---- responsive index ----*/
 
     .navbar-brand {
-        font-size: 1.2rem; 
+        font-size: 1.2rem;
     }
 
     .hero-content h1 {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
     }
 
     .cta-button {
-        padding: 10px 20px; 
+        padding: 10px 20px;
     }
 
     .beneficios-grid {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .beneficio {
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
 
     .carousel-caption h5 {
-        font-size: 2rem; 
+        font-size: 2rem;
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .carousel-caption p {
@@ -496,73 +497,73 @@ footer p {
     /* ---- responsive casamiento ----*/
 
     .grid-contenedor h1 {
-        font-size: 1.5rem; 
-        text-align: center; 
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     .invitaciones-bodas {
         display: flex;
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
     }
 
     .card {
-        width: 100%; 
-        margin-bottom: 20px; 
+        width: 100%;
+        margin-bottom: 20px;
     }
 
 
     /* ---- responsive cumpleaños ----*/
 
     main h1 {
-        font-size: 1.5rem; 
-        text-align: center; 
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     .invitaciones-cumple {
         display: flex;
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
     }
 
     .invitacion {
         width: 100%;
-        margin-bottom: 20px; 
-        text-align: center; 
+        margin-bottom: 20px;
+        text-align: center;
     }
 
     .invitacion img {
-        max-width: 100%; 
-        height: auto; 
+        max-width: 100%;
+        height: auto;
     }
 
     /* ---- responsive comunion ----*/
 
     .invitaciones-comunion {
         display: flex;
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
     }
 
     .invitacion-2 {
-        width: 100%; 
-        margin-bottom: 20px; 
-        text-align: center; 
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
     }
 
     .invitacion-2 img {
-        max-width: 100%; 
-        height: auto; 
+        max-width: 100%;
+        height: auto;
     }
 
     /* ---- responsive contacto ----*/
 
     .contacto-info {
-        text-align: center; 
+        text-align: center;
     }
 
     .contacto-imagen {
-        max-width: 100%; 
+        max-width: 100%;
         height: auto;
     }
 
@@ -571,16 +572,16 @@ footer p {
     }
 
     .contacto-item {
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
 
     .contacto-item p {
-        display: flex; 
-        align-items: center; 
+        display: flex;
+        align-items: center;
     }
 
     .contacto-item svg {
-        margin-right: 10px; 
+        margin-right: 10px;
     }
-    
+
 }

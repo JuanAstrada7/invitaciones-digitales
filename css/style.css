@@ -228,7 +228,7 @@ p {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.carousel-section h4 {
+.carousel-section h2 {
     font-size: 45px;
     margin-bottom: 15px;
     color: #ff0;
@@ -279,6 +279,7 @@ p {
     overflow: hidden;
     position: relative;
     background-color: rgba(0, 0, 0, 0.8);
+    width: 15rem;
 }
 
 .card-img-top {
@@ -363,7 +364,7 @@ p {
     border-radius: 10px;
     background-color: rgba(58, 58, 58, 0.7);
     padding: 15px;
-    margin: 10px;
+    margin: 20px;
     max-width: 300px;
     text-align: center;
 }

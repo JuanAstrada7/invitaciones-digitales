@@ -282,7 +282,12 @@ p {
     overflow: hidden;
     position: relative;
     background-color: rgba(0, 0, 0, 0.8);
-    width: 15rem;
+    width: 19rem;
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .card-img-top {
@@ -334,6 +339,11 @@ p {
     margin: 10px;
     max-width: 300px;
     text-align: center;
+    transition: 1s;
+}
+
+.invitacion:hover{
+    transform: scale(1.1);
 }
 
 .invitacion img {
@@ -370,6 +380,11 @@ p {
     margin: 20px;
     max-width: 300px;
     text-align: center;
+    transition: 1s;
+}
+
+.invitacion-2:hover{
+    transform: scale(1.1);
 }
 
 .invitacion-2 img {
@@ -401,6 +416,13 @@ p {
     margin: 20px auto;
     padding: 20px;
 }
+ .contacto-info img{
+    transition: 3s;
+ }
+
+ .contacto-info img:hover{
+    transform: rotateX(360deg);
+ }
 
 .contacto-details {
     display: flex;

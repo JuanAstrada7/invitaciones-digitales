@@ -1,25 +1,27 @@
 @import "../general/variables";
 @import "../general/mixins";
 
+/* -- Estilos para Botones Redes Sociales --*/
+
 .social-buttons {
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
     right: 20px;
-    z-index: 2000; /* Asegúrate de que este valor sea alto */
-    display: flex; /* Asegúrate de que los enlaces se muestren en línea */
-    flex-direction: column; /* Alinea los botones verticalmente */
+    z-index: 2000; 
+    display: flex; 
+    flex-direction: column; 
 
     a {
         display: block;
         margin: 10px 0;
-        font-size: 24px; /* Ajusta el tamaño del ícono según sea necesario */
-        color: $font-color; /* Cambia el color a uno más visible */
-        opacity: 1; /* Aumenta la opacidad */
+        font-size: 24px; 
+        color: $font-color; 
+        opacity: 1; 
         @include transition(opacity, 0.3s);
 
         &:hover {
-            opacity: 1; /* Mantener opacidad al pasar el mouse */
+            opacity: 1;
         }
     }
 }

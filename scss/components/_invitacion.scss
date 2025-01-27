@@ -1,7 +1,8 @@
 @import "../general/variables";
 @import "../general/mixins";
 
- /* Estilos css para casamientos */
+ /* -- Estilos para casamiento --*/
+
  .invitaciones-bodas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -47,6 +48,7 @@
 }
 
 /* Estilo para el botón */
+
 .btn-primary {
     background-color: $font-color;
     color: #000;
@@ -72,7 +74,7 @@
         margin: 10px;
         max-width: 300px;
         text-align: center;
-        @include transition(transform, 1s); // Actualizado aquí
+        @include transition(transform, 1s);
 
         &:hover {
             transform: scale(1.1);
@@ -97,7 +99,8 @@
     }
 }
 
-/*-------------- Estilos para la pestaña comunion -------------*/
+/* -- Estilos para comunion --*/
+
 .invitaciones-comunion {
     display: flex;
     flex-wrap: wrap;

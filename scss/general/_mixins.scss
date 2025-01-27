@@ -1,3 +1,5 @@
+/* -- MIXINS --*/
+
 @mixin transition($property, $duration) {
     transition: $property $duration;
 }

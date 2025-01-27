@@ -1,6 +1,8 @@
 @import "../general/variables";
 @import "../general/mixins";
 
+/* -- MAIN --*/
+
 main {
     padding: 20px;
 
@@ -24,6 +26,8 @@ p {
     color: $white-color;
     font-weight: 400;
 }
+
+/* -- HERO SECTION --*/
 
 .hero {
     min-height: 50vh;

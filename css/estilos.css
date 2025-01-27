@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* -- MIXINS --*/
+/* -- RESET --*/
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +9,12 @@
   box-sizing: border-box;
 }
 
+/* -- TIPOGRAFIA --*/
 body {
   font-family: "Roboto", sans-serif;
 }
 
+/* -- BODY --*/
 body {
   margin: 0;
   padding: 0;
@@ -22,6 +26,66 @@ body {
   background-attachment: fixed;
 }
 
+/* -- MIXINS --*/
+/* -- Barra de Navegación--*/
+.navbar {
+  background-color: #000;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 25px 0;
+  border-radius: 8px;
+  border: 1px solid #ff0;
+}
+.navbar .navbar-brand {
+  color: #ff0;
+  font-size: 24px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navbar-brand:hover {
+  transform: scale(1.05);
+}
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #ff0;
+  transform: scale(1.05);
+}
+.navbar .dropdown-menu {
+  background-color: #000;
+}
+.navbar .dropdown-menu .dropdown-item {
+  color: #ffffff;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #000;
+  color: #ff0;
+  transform: scale(1.05);
+}
+.navbar .navbar-toggler {
+  background-color: #000;
+  border: 2px solid #ff0;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-color: #ff0;
+}
+.navbar .logo-container {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-logo {
+  height: 70px;
+  margin-right: 10px;
+}
+
+/* -- MIXINS --*/
+/* -- MAIN --*/
 main {
   padding: 20px;
 }
@@ -45,6 +109,7 @@ p {
   font-weight: 400;
 }
 
+/* -- HERO SECTION --*/
 .hero {
   min-height: 50vh;
   display: flex;
@@ -158,77 +223,8 @@ p {
   text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
 }
 
-footer {
-  text-align: center;
-  padding: 30px 0;
-  background: #0a0b0c;
-  color: #ffffff;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  margin-top: 20px;
-}
-footer p {
-  color: #ffffff;
-}
-
-.navbar {
-  background-color: #000;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  padding: 25px 0;
-  border-radius: 8px;
-  border: 1px solid #ff0;
-}
-.navbar .navbar-brand {
-  color: #ff0;
-  font-size: 24px;
-  font-weight: bold;
-  align-items: center;
-  justify-content: space-between;
-}
-.navbar .navbar-brand:hover {
-  transform: scale(1.05);
-}
-.navbar .navbar-nav .nav-link {
-  color: #ffffff;
-  margin: 0 10px;
-  font-size: 16px;
-  transition: color 0.3s;
-}
-.navbar .navbar-nav .nav-link:hover {
-  color: #ff0;
-  transform: scale(1.05);
-}
-.navbar .dropdown-menu {
-  background-color: #000;
-}
-.navbar .dropdown-menu .dropdown-item {
-  color: #ffffff;
-}
-.navbar .dropdown-menu .dropdown-item:hover {
-  background-color: #000;
-  color: #ff0;
-  transform: scale(1.05);
-}
-.navbar .navbar-toggler {
-  background-color: #000;
-  border: 2px solid #ff0;
-}
-.navbar .navbar-toggler .navbar-toggler-icon {
-  background-color: #ff0;
-}
-.navbar .logo-container {
-  display: flex;
-  align-items: center;
-}
-.navbar .navbar-logo {
-  height: 70px;
-  margin-right: 10px;
-}
-
-/* Estilos css para casamientos */
+/* -- MIXINS --*/
+/* -- Estilos para casamiento --*/
 .invitaciones-bodas {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -313,7 +309,7 @@ footer p {
   margin: 10px 0;
 }
 
-/*-------------- Estilos para la pestaña comunion -------------*/
+/* -- Estilos para comunion --*/
 .invitaciones-comunion {
   display: flex;
   flex-wrap: wrap;
@@ -348,27 +344,24 @@ footer p {
   margin: 10px 0;
 }
 
-.social-buttons {
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 20px;
-  z-index: 2000; /* Asegúrate de que este valor sea alto */
-  display: flex; /* Asegúrate de que los enlaces se muestren en línea */
-  flex-direction: column; /* Alinea los botones verticalmente */
+/* -- MIXINS --*/
+/* -- FOOTER --*/
+footer {
+  text-align: center;
+  padding: 30px 0;
+  background: #0a0b0c;
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
 }
-.social-buttons a {
-  display: block;
-  margin: 10px 0;
-  font-size: 24px; /* Ajusta el tamaño del ícono según sea necesario */
-  color: #ff0; /* Cambia el color a uno más visible */
-  opacity: 1; /* Aumenta la opacidad */
-  transition: opacity 0.3s;
-}
-.social-buttons a:hover {
-  opacity: 1; /* Mantener opacidad al pasar el mouse */
+footer p {
+  color: #ffffff;
 }
 
+/* -- MIXINS --*/
+/* -- Estilos para contacto --*/
 .contacto-info {
   border-radius: 10px;
   overflow: hidden;
@@ -424,6 +417,30 @@ footer p {
   margin: 10px 0;
 }
 
+/* -- MIXINS --*/
+/* -- Estilos para Botones Redes Sociales --*/
+.social-buttons {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+}
+.social-buttons a {
+  display: block;
+  margin: 10px 0;
+  font-size: 24px;
+  color: #ff0;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.social-buttons a:hover {
+  opacity: 1;
+}
+
+/* -- RESPONSIVE --*/
 @media (max-width: 576px) {
   /* ---- responsive index ----*/
   .navbar-brand {

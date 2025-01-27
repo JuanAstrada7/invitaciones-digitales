@@ -4,125 +4,124 @@
 @media (max-width: 576px) {
 
     /* ---- responsive index ----*/
+
     .navbar-brand {
-        font-size: 1.1rem; 
+        font-size: 1.2rem;
     }
 
-    .hero-content {
-        h1 {
-            font-size: 1.5rem; 
-        }
+    .hero-content h1 {
+        font-size: 1.5rem;
     }
 
     .cta-button {
-        padding: 10px 20px; 
+        padding: 10px 20px;
     }
 
     .beneficios-grid {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .beneficio {
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
 
-    .carousel-caption {
-        h5 {
-            font-size: 2rem; 
-        }
+    .carousel-caption h5 {
+        font-size: 2rem;
+    }
 
-        p {
-            font-size: 1.5rem; 
-        }
+    .carousel-caption p {
+        font-size: 1.5rem;
     }
 
     /* ---- responsive casamiento ----*/
-    .grid-contenedor {
-        h1 {
-            font-size: 1.5rem; 
-            text-align: center;
-        }
+
+    .grid-contenedor h1 {
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     .invitaciones-bodas {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        .card {
-            width: 90%; 
-            margin-bottom: 20px; 
-        }
     }
 
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+
     /* ---- responsive cumpleaños ----*/
-    main {
-        h1 {
-            font-size: 1.5rem;
-            text-align: center;
-        }
 
-        .invitaciones-cumple {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+    main h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
 
-            .invitacion {
-                width: 100%;
-                margin-bottom: 20px;
-                text-align: center;
+    .invitaciones-cumple {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-                img {
-                    max-width: 100%; 
-                    height: auto;
-                }
-            }
-        }
+    .invitacion {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .invitacion img {
+        max-width: 100%;
+        height: auto;
     }
 
     /* ---- responsive comunion ----*/
+
     .invitaciones-comunion {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
 
-        .invitacion-2 {
-            width: 100%; 
-            margin-bottom: 20px; 
-            text-align: center;
+    .invitacion-2 {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
-            img {
-                max-width: 100%;
-                height: auto;
-            }
-        }
+    .invitacion-2 img {
+        max-width: 100%;
+        height: auto;
     }
 
     /* ---- responsive contacto ----*/
+
     .contacto-info {
         text-align: center;
-
-        .contacto-imagen {
-            max-width: 100%; 
-            height: auto;
-        }
-
-        .contacto-details {
-            padding: 0 15px; 
-        }
-
-        .contacto-item {
-            margin-bottom: 20px; 
-
-            p {
-                display: flex;
-                align-items: center;
-            }
-
-            svg {
-                margin-right: 10px; 
-            }
-        }
     }
+
+    .contacto-imagen {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .contacto-details {
+        padding: 0 15px;
+    }
+
+    .contacto-item {
+        margin-bottom: 20px;
+    }
+
+    .contacto-item p {
+        display: flex;
+        align-items: center;
+    }
+
+    .contacto-item svg {
+        margin-right: 10px;
+    }
+
 }

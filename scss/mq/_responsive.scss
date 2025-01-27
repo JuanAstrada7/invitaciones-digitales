@@ -4,13 +4,14 @@
 @media (max-width: 576px) {
 
     /* ---- responsive index ----*/
-
     .navbar-brand {
         font-size: 1.2rem;
     }
 
-    .hero-content h1 {
-        font-size: 1.5rem;
+    .hero-content {
+        h1 {
+            font-size: 1.5rem;
+        }
     }
 
     .cta-button {
@@ -26,19 +27,21 @@
         margin-bottom: 20px;
     }
 
-    .carousel-caption h5 {
-        font-size: 2rem;
-    }
-
-    .carousel-caption p {
-        font-size: 1.5rem;
+    .carousel-caption {
+        h5 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1.5rem;
+        }
     }
 
     /* ---- responsive casamiento ----*/
-
-    .grid-contenedor h1 {
-        font-size: 1.5rem;
-        text-align: center;
+    .grid-contenedor {
+        h1 {
+            font-size: 1.5rem;
+            text-align: center;
+        }
     }
 
     .invitaciones-bodas {
@@ -52,12 +55,12 @@
         margin-bottom: 20px;
     }
 
-
     /* ---- responsive cumpleaños ----*/
-
-    main h1 {
-        font-size: 1.5rem;
-        text-align: center;
+    main {
+        h1 {
+            font-size: 1.5rem;
+            text-align: center;
+        }
     }
 
     .invitaciones-cumple {
@@ -70,15 +73,14 @@
         width: 100%;
         margin-bottom: 20px;
         text-align: center;
-    }
 
-    .invitacion img {
-        max-width: 100%;
-        height: auto;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     }
 
     /* ---- responsive comunion ----*/
-
     .invitaciones-comunion {
         display: flex;
         flex-direction: column;
@@ -89,15 +91,14 @@
         width: 100%;
         margin-bottom: 20px;
         text-align: center;
-    }
 
-    .invitacion-2 img {
-        max-width: 100%;
-        height: auto;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     }
 
     /* ---- responsive contacto ----*/
-
     .contacto-info {
         text-align: center;
     }
@@ -113,15 +114,14 @@
 
     .contacto-item {
         margin-bottom: 20px;
-    }
 
-    .contacto-item p {
-        display: flex;
-        align-items: center;
-    }
+        p {
+            display: flex;
+            align-items: center;
+        }
 
-    .contacto-item svg {
-        margin-right: 10px;
+        svg {
+            margin-right: 10px;
+        }
     }
-
 }

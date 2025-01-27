@@ -248,7 +248,7 @@ p {
     color: gold;
     padding: 10px;
     text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
-    
+
 }
 
 .carousel-caption h5 {
@@ -342,7 +342,7 @@ p {
     transition: 1s;
 }
 
-.invitacion:hover{
+.invitacion:hover {
     transform: scale(1.1);
 }
 
@@ -383,7 +383,7 @@ p {
     transition: 1s;
 }
 
-.invitacion-2:hover{
+.invitacion-2:hover {
     transform: scale(1.1);
 }
 
@@ -416,13 +416,14 @@ p {
     margin: 20px auto;
     padding: 20px;
 }
- .contacto-info img{
-    transition: 3s;
- }
 
- .contacto-info img:hover{
+.contacto-info img {
+    transition: 3s;
+}
+
+.contacto-info img:hover {
     transform: rotateX(360deg);
- }
+}
 
 .contacto-details {
     display: flex;
@@ -491,22 +492,29 @@ footer p {
     top: 50%;
     transform: translateY(-50%);
     right: 20px;
-    z-index: 2000; /* Asegúrate de que este valor sea alto */
-    display: flex; /* Asegúrate de que los enlaces se muestren en línea */
-    flex-direction: column; /* Alinea los botones verticalmente */
+    z-index: 2000;
+    /* Asegúrate de que este valor sea alto */
+    display: flex;
+    /* Asegúrate de que los enlaces se muestren en línea */
+    flex-direction: column;
+    /* Alinea los botones verticalmente */
 }
 
 .social-buttons a {
     display: block;
     margin: 10px 0;
-    font-size: 24px; /* Ajusta el tamaño del ícono según sea necesario */
-    color: #ff0; /* Cambia el color a uno más visible */
-    opacity: 1; /* Aumenta la opacidad */
+    font-size: 24px;
+    /* Ajusta el tamaño del ícono según sea necesario */
+    color: #ff0;
+    /* Cambia el color a uno más visible */
+    opacity: 1;
+    /* Aumenta la opacidad */
     transition: opacity 0.3s;
 }
 
 .social-buttons a:hover {
-    opacity: 1; /* Mantener opacidad al pasar el mouse */
+    opacity: 1;
+    /* Mantener opacidad al pasar el mouse */
 }
 
 /* Media queries para responsividad */

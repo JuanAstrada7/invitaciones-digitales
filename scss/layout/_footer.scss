@@ -1,0 +1,17 @@
+@import "../general/variables";
+@import "../general/mixins";
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background: #0a0b0c;
+    color: $white-color;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+
+    p {
+        color: $white-color;
+    }
+}

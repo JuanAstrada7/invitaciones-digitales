@@ -1,0 +1,522 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-image: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+main {
+  padding: 20px;
+}
+main h1 {
+  color: #ff0;
+  font-weight: 600;
+  text-align: center;
+  font-size: 100px;
+}
+
+section {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.hero {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 0;
+}
+.hero .hero-content {
+  max-width: 800px;
+}
+.hero .hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  color: #ff0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero .hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ff0;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+.cta-button:hover {
+  transform: scale(1.05);
+}
+
+.beneficios {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 50px 20px;
+}
+.beneficios h2 {
+  color: #ff0;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+.beneficios .beneficios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.beneficios .beneficio {
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.beneficios .beneficio:hover {
+  transform: translateY(-5px);
+}
+.beneficios .beneficio i {
+  font-size: 2.5rem;
+  color: #ff0;
+  margin-bottom: 15px;
+}
+.beneficios .beneficio h3 {
+  color: #ff0;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.beneficios .beneficio p {
+  color: #ffffff;
+}
+
+.carousel-section {
+  text-align: center;
+  margin: 20px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.carousel-section h2 {
+  font-size: 45px;
+  margin-bottom: 15px;
+  color: #ff0;
+}
+.carousel-section .carousel-inner img {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.carousel-section .carousel-caption {
+  color: gold;
+  padding: 10px;
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
+}
+.carousel-section .carousel-caption h5 {
+  font-size: 4rem;
+  margin-bottom: 3px;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
+}
+.carousel-section .carousel-caption p {
+  font-size: 2.5rem;
+  padding: 5px;
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  background: #0a0b0c;
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+footer p {
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #000;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 25px 0;
+  border-radius: 8px;
+  border: 1px solid #ff0;
+}
+.navbar .navbar-brand {
+  color: #ff0;
+  font-size: 24px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navbar-brand:hover {
+  transform: scale(1.05);
+}
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #ff0;
+  transform: scale(1.05);
+}
+.navbar .dropdown-menu {
+  background-color: #000;
+}
+.navbar .dropdown-menu .dropdown-item {
+  color: #ffffff;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #000;
+  color: #ff0;
+  transform: scale(1.05);
+}
+.navbar .navbar-toggler {
+  background-color: #000;
+  border: 2px solid #ff0;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-color: #ff0;
+}
+.navbar .logo-container {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-logo {
+  height: 70px;
+  margin-right: 10px;
+}
+
+/* Estilos css para casamientos */
+.invitaciones-bodas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  border: 2px solid rgba(241, 238, 47, 0.904);
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 19rem;
+  transition: transform 1s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card .card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+.card .card-body {
+  text-align: center;
+  padding: 20px;
+}
+.card .card-body .card-title {
+  color: #ff0;
+  margin-bottom: 10px;
+}
+.card .card-body .card-text {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+/* Estilo para el botón */
+.btn-primary {
+  background-color: #ff0;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Estilos css para cumpleaños */
+.invitaciones-cumple {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+.invitaciones-cumple .invitacion {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  margin: 10px;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 1s;
+}
+.invitaciones-cumple .invitacion:hover {
+  transform: scale(1.1);
+}
+.invitaciones-cumple .invitacion img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 10px;
+}
+.invitaciones-cumple .invitacion h2 {
+  color: #ff0;
+  margin: 10px 0;
+}
+.invitaciones-cumple .invitacion p {
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+/*-------------- Estilos para la pestaña comunion -------------*/
+.invitaciones-comunion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+.invitaciones-comunion .invitacion-2 {
+  border: 2px solid rgba(224, 238, 23, 0.911);
+  border-radius: 10px;
+  background-color: rgba(58, 58, 58, 0.7);
+  padding: 15px;
+  margin: 20px;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 1s;
+}
+.invitaciones-comunion .invitacion-2:hover {
+  transform: scale(1.1);
+}
+.invitaciones-comunion .invitacion-2 img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 10px;
+}
+.invitaciones-comunion .invitacion-2 h2 {
+  color: #ff0;
+  margin: 10px 0;
+}
+.invitaciones-comunion .invitacion-2 p {
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.social-buttons {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  z-index: 2000; /* Asegúrate de que este valor sea alto */
+  display: flex; /* Asegúrate de que los enlaces se muestren en línea */
+  flex-direction: column; /* Alinea los botones verticalmente */
+}
+.social-buttons a {
+  display: block;
+  margin: 10px 0;
+  font-size: 24px; /* Ajusta el tamaño del ícono según sea necesario */
+  color: #ff0; /* Cambia el color a uno más visible */
+  opacity: 1; /* Aumenta la opacidad */
+  transition: opacity 0.3s;
+}
+.social-buttons a:hover {
+  opacity: 1; /* Mantener opacidad al pasar el mouse */
+}
+
+.contacto-info {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.9);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+.contacto-info img {
+  transition: transform 3s;
+}
+.contacto-info img:hover {
+  transform: rotateX(360deg);
+}
+
+.contacto-details {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.contacto-details .contacto-item {
+  color: #ff0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+.contacto-details .contacto-item .icon-whatsapp {
+  color: #25D366;
+}
+.contacto-details .contacto-item .icon-email {
+  color: #007BFF;
+}
+.contacto-details .contacto-item .icon-location {
+  color: #FF5733;
+}
+
+.contacto-imagen {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
+  max-width: 200px;
+}
+
+.contacto-info h2 {
+  color: #ff0;
+  margin: 10px 0;
+}
+
+@media (max-width: 576px) {
+  /* ---- responsive index ----*/
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+  .cta-button {
+    padding: 10px 20px;
+  }
+  .beneficios-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .beneficio {
+    margin-bottom: 20px;
+  }
+  .carousel-caption h5 {
+    font-size: 2rem;
+  }
+  .carousel-caption p {
+    font-size: 1.5rem;
+  }
+  /* ---- responsive casamiento ----*/
+  .grid-contenedor h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .invitaciones-bodas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* ---- responsive cumpleaños ----*/
+  main h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .invitaciones-cumple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .invitaciones-cumple .invitacion {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .invitaciones-cumple .invitacion img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* ---- responsive comunion ----*/
+  .invitaciones-comunion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .invitaciones-comunion .invitacion-2 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .invitaciones-comunion .invitacion-2 img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* ---- responsive contacto ----*/
+  .contacto-info {
+    text-align: center;
+  }
+  .contacto-imagen {
+    max-width: 100%;
+    height: auto;
+  }
+  .contacto-details {
+    padding: 0 15px;
+  }
+  .contacto-item {
+    margin-bottom: 20px;
+  }
+  .contacto-item p {
+    display: flex;
+    align-items: center;
+  }
+  .contacto-item svg {
+    margin-right: 10px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

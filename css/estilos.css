@@ -442,7 +442,7 @@ footer p {
 
 /* -- RESPONSIVE --*/
 @media (max-width: 576px) {
-  /* ---- responsive index ----*/
+  /* ---- responsive index ---- */
   .navbar-brand {
     font-size: 1.2rem;
   }
@@ -465,7 +465,7 @@ footer p {
   .carousel-caption p {
     font-size: 1.5rem;
   }
-  /* ---- responsive casamiento ----*/
+  /* ---- responsive casamiento ---- */
   .grid-contenedor h1 {
     font-size: 1.5rem;
     text-align: center;
@@ -479,7 +479,7 @@ footer p {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* ---- responsive cumpleaños ----*/
+  /* ---- responsive cumpleaños ---- */
   main h1 {
     font-size: 1.5rem;
     text-align: center;
@@ -498,7 +498,7 @@ footer p {
     max-width: 100%;
     height: auto;
   }
-  /* ---- responsive comunion ----*/
+  /* ---- responsive comunion ---- */
   .invitaciones-comunion {
     display: flex;
     flex-direction: column;
@@ -513,7 +513,7 @@ footer p {
     max-width: 100%;
     height: auto;
   }
-  /* ---- responsive contacto ----*/
+  /* ---- responsive contacto ---- */
   .contacto-info {
     text-align: center;
   }

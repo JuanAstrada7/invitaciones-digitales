@@ -1,9 +1,9 @@
 @import "../general/variables";
 
-/* -- RESPONSIVE --*/
+/* -- RESPONSIVE -- */
 
 @media (max-width: 576px) {
-    /* ---- responsive index ----*/
+    /* ---- responsive index ---- */
     .navbar-brand {
         font-size: 1.2rem;
     }
@@ -33,7 +33,7 @@
         font-size: 1.5rem;
     }
 
-    /* ---- responsive casamiento ----*/
+    /* ---- responsive casamiento ---- */
     .grid-contenedor h1 {
         font-size: 1.5rem;
         text-align: center;
@@ -50,7 +50,7 @@
         margin-bottom: 20px;
     }
 
-    /* ---- responsive cumpleaños ----*/
+    /* ---- responsive cumpleaños ---- */
     main h1 {
         font-size: 1.5rem;
         text-align: center;
@@ -73,7 +73,7 @@
         }
     }
 
-    /* ---- responsive comunion ----*/
+    /* ---- responsive comunion ---- */
     .invitaciones-comunion {
         display: flex;
         flex-direction: column;
@@ -91,7 +91,7 @@
         }
     }
 
-    /* ---- responsive contacto ----*/
+    /* ---- responsive contacto ---- */
     .contacto-info {
         text-align: center;
     }

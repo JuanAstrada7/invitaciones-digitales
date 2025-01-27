@@ -440,9 +440,9 @@ footer p {
   opacity: 1;
 }
 
-/* -- RESPONSIVE --*/
+/* -- MEDIA QUERIES PARA RESPONSIVIDAD -- */
 @media (max-width: 576px) {
-  /* ---- responsive index ---- */
+  /* ---- responsive index ----*/
   .navbar-brand {
     font-size: 1.2rem;
   }
@@ -465,7 +465,7 @@ footer p {
   .carousel-caption p {
     font-size: 1.5rem;
   }
-  /* ---- responsive casamiento ---- */
+  /* ---- responsive casamiento ----*/
   .grid-contenedor h1 {
     font-size: 1.5rem;
     text-align: center;
@@ -475,30 +475,30 @@ footer p {
     flex-direction: column;
     align-items: center;
   }
-  .card {
+  .invitaciones-bodas .card {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* ---- responsive cumpleaños ---- */
+  /* ---- responsive cumpleaños ----*/
   main h1 {
     font-size: 1.5rem;
     text-align: center;
   }
-  .invitaciones-cumple {
+  main .invitaciones-cumple {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .invitaciones-cumple .invitacion {
+  main .invitaciones-cumple .invitacion {
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
   }
-  .invitaciones-cumple .invitacion img {
+  main .invitaciones-cumple .invitacion img {
     max-width: 100%;
     height: auto;
   }
-  /* ---- responsive comunion ---- */
+  /* ---- responsive comunion ----*/
   .invitaciones-comunion {
     display: flex;
     flex-direction: column;
@@ -513,25 +513,25 @@ footer p {
     max-width: 100%;
     height: auto;
   }
-  /* ---- responsive contacto ---- */
+  /* ---- responsive contacto ----*/
   .contacto-info {
     text-align: center;
   }
-  .contacto-imagen {
+  .contacto-info .contacto-imagen {
     max-width: 100%;
     height: auto;
   }
-  .contacto-details {
+  .contacto-info .contacto-details {
     padding: 0 15px;
   }
-  .contacto-item {
+  .contacto-info .contacto-item {
     margin-bottom: 20px;
   }
-  .contacto-item p {
+  .contacto-info .contacto-item p {
     display: flex;
     align-items: center;
   }
-  .contacto-item svg {
+  .contacto-info .contacto-item svg {
     margin-right: 10px;
   }
 }

@@ -1,120 +1,128 @@
 @import "../general/variables";
 
-/* -- RESPONSIVE -- */
-
+/* -- MEDIA QUERIES PARA RESPONSIVIDAD -- */
 @media (max-width: 576px) {
-    /* ---- responsive index ---- */
+
+    /* ---- responsive index ----*/
     .navbar-brand {
-        font-size: 1.2rem;
+        font-size: 1.2rem; // Ajuste para pantallas pequeñas
     }
 
-    .hero-content h1 {
-        font-size: 1.5rem;
+    .hero-content {
+        h1 {
+            font-size: 1.5rem; // Ajuste para pantallas pequeñas
+        }
     }
 
     .cta-button {
-        padding: 10px 20px;
+        padding: 10px 20px; // Ajuste para pantallas pequeñas
     }
 
     .beneficios-grid {
         display: flex;
-        flex-direction: column;
+        flex-direction: column; // Ajuste para pantallas pequeñas
     }
 
     .beneficio {
-        margin-bottom: 20px;
+        margin-bottom: 20px; // Ajuste para pantallas pequeñas
     }
 
-    .carousel-caption h5 {
-        font-size: 2rem;
+    .carousel-caption {
+        h5 {
+            font-size: 2rem; // Ajuste para pantallas pequeñas
+        }
+
+        p {
+            font-size: 1.5rem; // Ajuste para pantallas pequeñas
+        }
     }
 
-    .carousel-caption p {
-        font-size: 1.5rem;
-    }
-
-    /* ---- responsive casamiento ---- */
-    .grid-contenedor h1 {
-        font-size: 1.5rem;
-        text-align: center;
+    /* ---- responsive casamiento ----*/
+    .grid-contenedor {
+        h1 {
+            font-size: 1.5rem; // Ajuste para pantallas pequeñas
+            text-align: center;
+        }
     }
 
     .invitaciones-bodas {
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        .card {
+            width: 100%; // Ajuste para pantallas pequeñas
+            margin-bottom: 20px; // Ajuste para pantallas pequeñas
+        }
     }
 
-    .card {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    /* ---- responsive cumpleaños ---- */
-    main h1 {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    .invitaciones-cumple {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        .invitacion {
-            width: 100%;
-            margin-bottom: 20px;
+    /* ---- responsive cumpleaños ----*/
+    main {
+        h1 {
+            font-size: 1.5rem; // Ajuste para pantallas pequeñas
             text-align: center;
+        }
 
-            img {
-                max-width: 100%;
-                height: auto;
+        .invitaciones-cumple {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .invitacion {
+                width: 100%; // Ajuste para pantallas pequeñas
+                margin-bottom: 20px; // Ajuste para pantallas pequeñas
+                text-align: center;
+
+                img {
+                    max-width: 100%; // Ajuste para pantallas pequeñas
+                    height: auto;
+                }
             }
         }
     }
 
-    /* ---- responsive comunion ---- */
+    /* ---- responsive comunion ----*/
     .invitaciones-comunion {
         display: flex;
         flex-direction: column;
         align-items: center;
 
         .invitacion-2 {
-            width: 100%;
-            margin-bottom: 20px;
+            width: 100%; // Ajuste para pantallas pequeñas
+            margin-bottom: 20px; // Ajuste para pantallas pequeñas
             text-align: center;
 
             img {
-                max-width: 100%;
+                max-width: 100%; // Ajuste para pantallas pequeñas
                 height: auto;
             }
         }
     }
 
-    /* ---- responsive contacto ---- */
+    /* ---- responsive contacto ----*/
     .contacto-info {
         text-align: center;
-    }
 
-    .contacto-imagen {
-        max-width: 100%;
-        height: auto;
-    }
+        .contacto-imagen {
+            max-width: 100%; // Ajuste para pantallas pequeñas
+            height: auto;
+        }
 
-    .contacto-details {
-        padding: 0 15px;
-    }
+        .contacto-details {
+            padding: 0 15px; // Ajuste para pantallas pequeñas
+        }
 
-    .contacto-item {
-        margin-bottom: 20px;
-    }
+        .contacto-item {
+            margin-bottom: 20px; // Ajuste para pantallas pequeñas
 
-    .contacto-item p {
-        display: flex;
-        align-items: center;
-    }
+            p {
+                display: flex;
+                align-items: center;
+            }
 
-    .contacto-item svg {
-        margin-right: 10px;
+            svg {
+                margin-right: 10px; // Ajuste para pantallas pequeñas
+            }
+        }
     }
 }

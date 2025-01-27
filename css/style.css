@@ -519,10 +519,12 @@ footer p {
 
 /* Media queries para responsividad */
 
+@import "../general/variables";
+
+/* -- RESPONSIVE -- */
+
 @media (max-width: 576px) {
-
-    /* ---- responsive index ----*/
-
+    /* ---- responsive index ---- */
     .navbar-brand {
         font-size: 1.2rem;
     }
@@ -552,8 +554,7 @@ footer p {
         font-size: 1.5rem;
     }
 
-    /* ---- responsive casamiento ----*/
-
+    /* ---- responsive casamiento ---- */
     .grid-contenedor h1 {
         font-size: 1.5rem;
         text-align: center;
@@ -570,9 +571,7 @@ footer p {
         margin-bottom: 20px;
     }
 
-
-    /* ---- responsive cumpleaños ----*/
-
+    /* ---- responsive cumpleaños ---- */
     main h1 {
         font-size: 1.5rem;
         text-align: center;
@@ -582,40 +581,38 @@ footer p {
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        .invitacion {
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
     }
 
-    .invitacion {
-        width: 100%;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .invitacion img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    /* ---- responsive comunion ----*/
-
+    /* ---- responsive comunion ---- */
     .invitaciones-comunion {
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        .invitacion-2 {
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
     }
 
-    .invitacion-2 {
-        width: 100%;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .invitacion-2 img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    /* ---- responsive contacto ----*/
-
+    /* ---- responsive contacto ---- */
     .contacto-info {
         text-align: center;
     }
@@ -641,5 +638,4 @@ footer p {
     .contacto-item svg {
         margin-right: 10px;
     }
-
 }

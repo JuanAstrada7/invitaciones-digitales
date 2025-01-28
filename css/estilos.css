@@ -449,8 +449,12 @@ footer p {
   .hero-content h1 {
     font-size: 1.5rem;
   }
+  .hero-content p {
+    font-size: 1rem;
+  }
   .cta-button {
     padding: 10px 20px;
+    font-size: 1rem;
   }
   .beneficios-grid {
     display: flex;

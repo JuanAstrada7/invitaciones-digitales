@@ -133,12 +133,12 @@ p {
 
 /* Estilos para la hero section */
 .hero {
-    min-height: 50vh;
+    min-height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 50px 20px;
+    padding: 30px 20px;
     background-color: rgba(0, 0, 0, 0.7);
     margin-top: 0;
 }
@@ -148,7 +148,9 @@ p {
 }
 
 .hero h1 {
-    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    font-size: 3rem;
     margin-bottom: 20px;
     color: #ff0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -534,8 +536,13 @@ footer p {
         font-size: 1.5rem;
     }
 
+    .hero-content p {
+        font-size: 1rem;
+    }
+
     .cta-button {
         padding: 10px 20px;
+        font-size: 1rem;
     }
 
     .beneficios-grid {

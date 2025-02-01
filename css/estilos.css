@@ -440,7 +440,7 @@ footer p {
   opacity: 1;
 }
 
-/* -- RESPONSIVE --*/
+/* Media queries para responsividad */
 @media (max-width: 576px) {
   /* ---- responsive index ----*/
   .navbar-brand {
@@ -456,7 +456,7 @@ footer p {
     display: flex;
     flex-direction: column;
   }
-  .beneficio {
+  .beneficios-grid .beneficio {
     margin-bottom: 20px;
   }
   .carousel-caption h5 {
@@ -475,7 +475,7 @@ footer p {
     flex-direction: column;
     align-items: center;
   }
-  .card {
+  .invitaciones-bodas .card {
     width: 100%;
     margin-bottom: 20px;
   }
@@ -531,7 +531,7 @@ footer p {
     display: flex;
     align-items: center;
   }
-  .contacto-item svg {
+  .contacto-item p svg {
     margin-right: 10px;
   }
 }

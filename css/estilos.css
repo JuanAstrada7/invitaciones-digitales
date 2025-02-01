@@ -540,23 +540,30 @@ footer p {
   }
   /* ---- responsive contacto ----*/
   .contacto-info {
+    padding: 20px;
     text-align: center;
   }
-  .contacto-imagen {
-    max-width: 90%;
+  .contacto-info h2 {
+    font-size: 1.5rem;
+  }
+  .contacto-info p {
+    font-size: 1rem;
+  }
+  .contacto-info .contacto-imagen {
+    max-width: 100%;
     height: auto;
   }
   .contacto-details {
     padding: 0 15px;
   }
-  .contacto-item {
+  .contacto-details .contacto-item {
     margin-bottom: 20px;
   }
-  .contacto-item p {
+  .contacto-details .contacto-item p {
     display: flex;
     align-items: center;
   }
-  .contacto-item p svg {
+  .contacto-details .contacto-item p svg {
     margin-right: 10px;
   }
 }

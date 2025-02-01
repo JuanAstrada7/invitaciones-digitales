@@ -147,25 +147,24 @@
         }
 
         .contacto-imagen {
-            max-width: 90%; 
+            max-width: 100%;
             height: auto;
-            margin-top: 10px;
         }
     }
 
     .contacto-details {
         padding: 0 15px;
-    }
 
-    .contacto-item {
-        margin-bottom: 20px;
+        .contacto-item {
+            margin-bottom: 20px;
 
-        p {
-            display: flex;
-            align-items: center;
+            p {
+                display: flex;
+                align-items: center;
 
-            svg {
-                margin-right: 10px;
+                svg {
+                    margin-right: 10px;
+                }
             }
         }
     }

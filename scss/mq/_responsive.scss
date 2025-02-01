@@ -1,5 +1,6 @@
 
-/* -- MEDIA QUERIES PARA RESPONSIVIDAD -- */
+/* Media queries para responsividad */
+
 @media (max-width: 576px) {
 
     /* ---- responsive index ----*/
@@ -11,23 +12,19 @@
         h1 {
             font-size: 1.5rem;
         }
-        p{
-            font-size: 1rem;
-        }
     }
 
     .cta-button {
         padding: 10px 20px;
-        font-size: 1rem;
     }
 
     .beneficios-grid {
         display: flex;
         flex-direction: column;
-    }
 
-    .beneficio {
-        margin-bottom: 20px;
+        .beneficio {
+            margin-bottom: 20px;
+        }
     }
 
     .carousel-caption {
@@ -51,11 +48,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
 
-    .card {
-        width: 90%;
-        margin-bottom: 20px;
+        .card {
+            width: 100%;
+            margin-bottom: 20px;
+        }
     }
 
     /* ---- responsive cumpleaños ----*/
@@ -70,16 +67,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
 
-    .invitacion {
-        width: 100%;
-        margin-bottom: 20px;
-        text-align: center;
+        .invitacion {
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
 
-        img {
-            max-width: 100%;
-            height: auto;
+            img {
+                max-width: 100%;
+                height: auto;
+            }
         }
     }
 
@@ -88,16 +85,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
 
-    .invitacion-2 {
-        width: 100%;
-        margin-bottom: 20px;
-        text-align: center;
+        .invitacion-2 {
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
 
-        img {
-            max-width: 100%;
-            height: auto;
+            img {
+                max-width: 100%;
+                height: auto;
+            }
         }
     }
 
@@ -121,10 +118,10 @@
         p {
             display: flex;
             align-items: center;
-        }
 
-        svg {
-            margin-right: 10px;
+            svg {
+                margin-right: 10px;
+            }
         }
     }
 }

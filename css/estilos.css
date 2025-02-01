@@ -446,11 +446,19 @@ footer p {
   .navbar-brand {
     font-size: 1.2rem;
   }
-  .hero-content h1 {
+  .hero {
+    padding: 20px;
+    text-align: center;
+  }
+  .hero .hero-content h1 {
+    font-size: 1.5rem;
+  }
+  .hero .hero-content p {
     font-size: 1rem;
   }
-  .cta-button {
-    padding: 10px 20px;
+  .hero .hero-content .cta-button {
+    padding: 10px 15px;
+    font-size: 1rem;
   }
   .beneficios-grid {
     display: flex;
@@ -518,7 +526,7 @@ footer p {
     text-align: center;
   }
   .contacto-imagen {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
   }
   .contacto-details {

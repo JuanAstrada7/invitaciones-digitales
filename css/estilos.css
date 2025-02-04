@@ -373,10 +373,19 @@ footer p {
   padding: 20px;
 }
 .contacto-info img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
+  max-width: 200px;
   transition: transform 3s;
 }
 .contacto-info img:hover {
   transform: rotateX(360deg);
+}
+.contacto-info h2 {
+  color: #ff0;
+  margin: 10px 0;
 }
 
 .contacto-details {
@@ -402,19 +411,6 @@ footer p {
 }
 .contacto-details .contacto-item .icon-location {
   color: #FF5733;
-}
-
-.contacto-imagen {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin: 20px 0;
-  max-width: 200px;
-}
-
-.contacto-info h2 {
-  color: #ff0;
-  margin: 10px 0;
 }
 
 /* -- MIXINS --*/

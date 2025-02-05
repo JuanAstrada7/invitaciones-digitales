@@ -498,7 +498,7 @@ footer p {
     align-items: center;
   }
   .invitaciones-bodas .card {
-    width: 90%;
+    width: 80%;
     margin-bottom: 20px;
   }
   /* ---- responsive cumpleaños ----*/
@@ -547,7 +547,7 @@ footer p {
     font-size: 1rem;
   }
   .contacto-info .contacto-imagen {
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
   }
   .contacto-details {

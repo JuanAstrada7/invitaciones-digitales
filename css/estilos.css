@@ -520,7 +520,7 @@ footer p {
     text-align: center;
   }
   .invitaciones-cumple .invitacion img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
   }
   /* ---- responsive comunion ----*/
@@ -535,7 +535,7 @@ footer p {
     text-align: center;
   }
   .invitaciones-comunion .invitacion-2 img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
   }
   /* ---- responsive contacto ----*/

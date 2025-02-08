@@ -515,12 +515,12 @@ footer p {
     align-items: center;
   }
   .invitaciones-cumple .invitacion {
-    width: 80%;
+    width: 90%;
     margin-bottom: 20px;
     text-align: center;
   }
   .invitaciones-cumple .invitacion img {
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
   }
   /* ---- responsive comunion ----*/
@@ -530,12 +530,12 @@ footer p {
     align-items: center;
   }
   .invitaciones-comunion .invitacion-2 {
-    width: 80%;
+    width: 90%;
     margin-bottom: 20px;
     text-align: center;
   }
   .invitaciones-comunion .invitacion-2 img {
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
   }
   /* ---- responsive contacto ----*/

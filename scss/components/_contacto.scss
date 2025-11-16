@@ -1,62 +1,67 @@
-@import "../general/variables";
-@import "../general/mixins";
+@use "../general" as *;
 
-/* -- Estilos para contacto --*/
+/* -- Estilos para la página de Contacto --*/
 
-.contacto-info {
-    border-radius: $border-radius;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.9);
-    max-width: 400px;
-    width: 100%;
-    text-align: center;
-    margin: 20px auto;
+.contacto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 40px auto;
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: $border-radius;
+}
 
-    img {
-        width: 100%;
-        height: auto;
-        border-radius: $border-radius;
-        margin: 20px 0;
-        max-width: 200px;
-        @include transition(transform, 3s);
+.contacto-form-section,
+.contacto-details {
+    flex: 1;
+    min-width: 320px;
+    padding: 20px;
+}
 
-        &:hover {
-            transform: rotateX(360deg);
-        }
-    }
-    
-    h2{
+.contacto-form-section {
+    h2 {
         color: $font-color;
-        margin: 10px 0;
+    }
+
+    .form-label {
+        color: $white-color;
     }
 }
 
 .contacto-details {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
+    text-align: center;
 
     .contacto-item {
         color: $font-color;
-        border: 1px solid rgba($white-color, 0.2);
-        border-radius: $border-radius;
-        overflow: hidden;
         background-color: rgba(0, 0, 0, 0.9);
-        padding: 20px;
-        max-width: 400px;
-        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: $border-radius;
+        padding: 30px;
+        height: 100%;
 
-        .icon-whatsapp {
-            color: #25D366;
+        h3 {
+            color: $font-color;
         }
 
-        .icon-email {
-            color: #007BFF;
+        a {
+            color: $white-color;
+            text-decoration: none;
+            @include transition(color, 0.3s);
+
+            &:hover {
+                color: $font-color;
+            }
         }
 
-        .icon-location {
-            color: #FF5733;
+        .contacto-imagen {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            border-radius: $border-radius;
+            margin-top: 20px;
         }
     }
 }

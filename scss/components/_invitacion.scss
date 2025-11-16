@@ -1,7 +1,6 @@
-@import "../general/variables";
-@import "../general/mixins";
+@use "../general" as *;
 
- /* -- Estilos para casamiento --*/
+/* -- Estilos para casamiento --*/
 
 .invitaciones-bodas {
     display: grid;
@@ -61,9 +60,9 @@
     text-decoration: none;
 }
 
- /* Estilos css para cumpleaños */
+/* Estilos css para cumpleaños */
 
- .invitaciones-cumple {
+.invitaciones-cumple {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

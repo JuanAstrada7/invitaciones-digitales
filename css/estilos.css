@@ -1,6 +1,4 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-/* -- RESET --*/
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +6,10 @@
   box-sizing: border-box;
 }
 
-/* -- TIPOGRAFIA --*/
 body {
   font-family: "Roboto", sans-serif;
 }
 
-/* -- MIXINS --*/
-/* -- BODY --*/
 body {
   margin: 0;
   padding: 0;
@@ -26,7 +21,6 @@ body {
   background-attachment: fixed;
 }
 
-/* -- Barra de Navegación--*/
 .navbar {
   background-color: #000;
   max-width: 1200px;
@@ -83,7 +77,6 @@ body {
   margin-right: 10px;
 }
 
-/* -- MAIN --*/
 main {
   padding: 20px;
 }
@@ -107,7 +100,6 @@ p {
   font-weight: 400;
 }
 
-/* -- HERO SECTION --*/
 .hero {
   min-height: 50vh;
   display: flex;
@@ -221,7 +213,6 @@ p {
   text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
 }
 
-/* -- Estilos para casamiento --*/
 .invitaciones-bodas {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -264,7 +255,6 @@ p {
   font-size: 1rem;
 }
 
-/* Estilo para el botón */
 .btn-primary {
   background-color: #ff0;
   color: #000;
@@ -274,7 +264,6 @@ p {
   text-decoration: none;
 }
 
-/* Estilos css para cumpleaños */
 .invitaciones-cumple {
   display: flex;
   flex-wrap: wrap;
@@ -309,7 +298,6 @@ p {
   margin: 10px 0;
 }
 
-/* -- Estilos para comunion --*/
 .invitaciones-comunion {
   display: flex;
   flex-wrap: wrap;
@@ -344,7 +332,6 @@ p {
   margin: 10px 0;
 }
 
-/* -- FOOTER --*/
 footer {
   text-align: center;
   padding: 30px 0;
@@ -359,7 +346,6 @@ footer p {
   color: #ffffff;
 }
 
-/* -- Estilos para la página de Contacto --*/
 .contacto-container {
   display: flex;
   flex-wrap: wrap;
@@ -416,12 +402,24 @@ footer p {
   margin-top: 20px;
 }
 
-/* -- Estilos para Botones Redes Sociales --*/
+.btn-primary {
+  background-color: #ff0;
+  border-color: #ff0;
+  color: #0e0d0d;
+  transition: all 0.3s;
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #0e0d0d;
+  border-color: #0e0d0d;
+  color: #ff0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .social-buttons {
   display: flex;
   justify-content: center;
   gap: 20px;
-  /* Espacio entre iconos */
   margin-top: 15px;
 }
 .social-buttons a {
@@ -435,12 +433,7 @@ footer p {
   transform: scale(1.2);
 }
 
-/* Media queries para responsividad */
-/* ==========================================================================
-   Punto de quiebre para Tablets y Laptops Pequeños (hasta 992px)
-   ========================================================================== */
 @media (max-width: 992px) {
-  /* Ajustes generales de títulos */
   main h1,
   .hero .hero-content h1 {
     font-size: 2.5rem;
@@ -455,11 +448,7 @@ footer p {
     font-size: 1.5rem;
   }
 }
-/* ==========================================================================
-   Punto de quiebre para Tablets (hasta 768px)
-   ================================================_========================== */
 @media (max-width: 768px) {
-  /* ---- Responsive General ---- */
   .beneficios .beneficios-grid,
   .invitaciones-bodas,
   .invitaciones-cumple,
@@ -473,27 +462,21 @@ footer p {
   .invitaciones-cumple .invitacion,
   .invitaciones-comunion .invitacion-2 {
     width: 80%;
-    max-width: 400px; /* Un ancho máximo para que no se estire demasiado */
+    max-width: 400px;
   }
-  /* ---- Responsive Index ---- */
   .hero {
     padding: 30px 15px;
   }
   .beneficios {
     padding: 30px 15px;
   }
-  /* ---- Responsive Contacto ---- */
   .contacto-container {
     flex-direction: column;
     margin: 20px auto;
     padding: 15px;
   }
 }
-/* ==========================================================================
-   Punto de quiebre para Móviles (hasta 576px)
-   ========================================================================== */
 @media (max-width: 576px) {
-  /* ---- Ajustes finos para móviles ---- */
   main h1,
   .hero .hero-content h1,
   .beneficios h2,
@@ -519,7 +502,7 @@ footer p {
   .invitaciones-bodas .card,
   .invitaciones-cumple .invitacion,
   .invitaciones-comunion .invitacion-2 {
-    width: 95%; /* Ocupar casi todo el ancho en pantallas muy pequeñas */
+    width: 95%;
   }
 }
 

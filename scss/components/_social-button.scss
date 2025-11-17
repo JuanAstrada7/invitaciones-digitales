@@ -1,12 +1,9 @@
 @use "../general" as *;
 
-/* -- Estilos para Botones Redes Sociales --*/
-
 .social-buttons {
     display: flex;
     justify-content: center;
     gap: 20px;
-    /* Espacio entre iconos */
     margin-top: 15px;
 
     a {

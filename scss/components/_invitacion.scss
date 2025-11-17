@@ -1,7 +1,5 @@
 @use "../general" as *;
 
-/* -- Estilos para casamiento --*/
-
 .invitaciones-bodas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -49,8 +47,6 @@
     }
 }
 
-/* Estilo para el botón */
-
 .btn-primary {
     background-color: $font-color;
     color: #000;
@@ -59,8 +55,6 @@
     padding: 10px 20px;
     text-decoration: none;
 }
-
-/* Estilos css para cumpleaños */
 
 .invitaciones-cumple {
     display: flex;
@@ -100,8 +94,6 @@
         }
     }
 }
-
-/* -- Estilos para comunion --*/
 
 .invitaciones-comunion {
     display: flex;

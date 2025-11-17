@@ -1,10 +1,5 @@
-/* Media queries para responsividad */
-
-/* ==========================================================================
-   Punto de quiebre para Tablets y Laptops Pequeños (hasta 992px)
-   ========================================================================== */
 @media (max-width: 992px) {
-    /* Ajustes generales de títulos */
+
     main h1,
     .hero .hero-content h1 {
         font-size: 2.5rem;
@@ -23,11 +18,8 @@
     }
 }
 
-/* ==========================================================================
-   Punto de quiebre para Tablets (hasta 768px)
-   ================================================_========================== */
 @media (max-width: 768px) {
-    /* ---- Responsive General ---- */
+
     .beneficios .beneficios-grid,
     .invitaciones-bodas,
     .invitaciones-cumple,
@@ -42,10 +34,9 @@
     .invitaciones-cumple .invitacion,
     .invitaciones-comunion .invitacion-2 {
         width: 80%;
-        max-width: 400px; /* Un ancho máximo para que no se estire demasiado */
+        max-width: 400px;
     }
 
-    /* ---- Responsive Index ---- */
     .hero {
         padding: 30px 15px;
     }
@@ -54,7 +45,6 @@
         padding: 30px 15px;
     }
 
-    /* ---- Responsive Contacto ---- */
     .contacto-container {
         flex-direction: column;
         margin: 20px auto;
@@ -62,11 +52,9 @@
     }
 }
 
-/* ==========================================================================
-   Punto de quiebre para Móviles (hasta 576px)
-   ========================================================================== */
+
 @media (max-width: 576px) {
-    /* ---- Ajustes finos para móviles ---- */
+
     main h1,
     .hero .hero-content h1,
     .beneficios h2,
@@ -98,6 +86,6 @@
     .invitaciones-bodas .card,
     .invitaciones-cumple .invitacion,
     .invitaciones-comunion .invitacion-2 {
-        width: 95%; /* Ocupar casi todo el ancho en pantallas muy pequeñas */
+        width: 95%;
     }
 }

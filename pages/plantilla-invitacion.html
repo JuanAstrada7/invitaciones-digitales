@@ -4,11 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Evita que Google indexe las invitaciones privadas -->
     <meta name="robots" content="noindex, nofollow">
 
-    <!-- Personaliza el título para cada pareja -->
-    <title>Nuestra Boda - Ana y Carlos</title>
+    <title>[Nombre del Evento] - [Nombres]</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -113,49 +111,44 @@
 </head>
 
 <body>
-
-    <!-- 1. Sección Principal -->
     <header class="hero-boda">
         <div class="hero-boda-content">
-            <p>¡Nos casamos!</p>
-            <h1>Ana & Carlos</h1>
-            <p>18 de Noviembre, 2024</p>
+            <p>[Frase Principal]</p>
+            <h1>[Título del Evento / Nombres]</h1>
+            <p>[Fecha del Evento]</p>
         </div>
     </header>
 
     <main>
-        <!-- 2. Cuenta Regresiva -->
         <section class="countdown section-padding">
             <div class="container">
                 <h2>Faltan...</h2>
                 <div class="row text-center" id="countdown-timer">
-                    <!-- El JavaScript llenará esto -->
                 </div>
             </div>
         </section>
 
-        <!-- 3. Detalles del Evento -->
         <section class="section-padding">
             <div class="container">
-                <h2>Agenda del Evento</h2>
+                <h2>Detalles del Evento</h2>
                 <div class="row g-4 justify-content-center">
                     <div class="col-md-5">
                         <div class="info-card">
-                            <h3>Ceremonia</h3>
-                            <p><strong>Hora:</strong> 17:00 hs</p>
-                            <p><strong>Lugar:</strong> Parroquia Nuestra Señora del Pilar</p>
-                            <p>Av. Siempre Viva 123, Córdoba</p>
-                            <a href="https://maps.google.com/?q=Parroquia+Nuestra+Señora+del+Pilar" target="_blank"
+                            <h3>[Título Parte 1]</h3>
+                            <p><strong>Hora:</strong> [Hora]</p>
+                            <p><strong>Lugar:</strong> [Nombre del Lugar]</p>
+                            <p>[Dirección]</p>
+                            <a href="https://maps.google.com/?q=[Dirección para el mapa]" target="_blank"
                                 class="btn btn-mapa mt-3">Ver en Mapa</a>
                         </div>
                     </div>
                     <div class="col-md-5">
                         <div class="info-card">
-                            <h3>Recepción</h3>
-                            <p><strong>Hora:</strong> 19:00 hs</p>
-                            <p><strong>Lugar:</strong> Salón de Fiestas "El Roble"</p>
-                            <p>Calle Falsa 456, Córdoba</p>
-                            <a href="https://maps.google.com/?q=Salón+de+Fiestas+El+Roble" target="_blank"
+                            <h3>[Título Parte 2]</h3>
+                            <p><strong>Hora:</strong> [Hora]</p>
+                            <p><strong>Lugar:</strong> [Nombre del Lugar]</p>
+                            <p>[Dirección]</p>
+                            <a href="https://maps.google.com/?q=[Dirección para el mapa]" target="_blank"
                                 class="btn btn-mapa mt-3">Ver en Mapa</a>
                         </div>
                     </div>
@@ -169,8 +162,7 @@
     </footer>
 
     <script>
-        // Script para la cuenta regresiva
-        const countDownDate = new Date("Nov 18, 2024 17:00:00").getTime();
+        const countDownDate = new Date("[Fecha y Hora del Evento]").getTime();
         const timerElement = document.getElementById("countdown-timer");
 
         const x = setInterval(function () {
